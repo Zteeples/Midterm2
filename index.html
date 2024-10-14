@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinterestAssignment</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .american_pin {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/american.jpg");
+        }
+        .chinese_pin {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/chinese.jpg");
+        }
+        .greek_pin {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/greek.jpg");
+        }
+        .italian_pin {
+            width: 200px;
+            height: 200px;
+            background-image: url("./images/italian.jpg");
+        }
+        .wrapper {
+            background-color: aquamarine;
+            height: 400px;
+            width: 940px;
+            position: absolute;
+            border-radius: 20px;
+            top: 15%;
+            border: 5px solid #38E7E8;
+        }
+        .tip {
+            position: absolute;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+        .title {
+            position: absolute;
+            font-size: 40px;
+        }
+        .homebutton {
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            background-image: url("./images/home.jpg");
+            top: 100px;
+            left: 20px;
+            z-index: 2;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class = "homebutton"></div>
+    <a href="index.html" class="homebutton"></a>
+    <div class="wrapper">
+        <div class = "title" style="top:-120px; left: 150px;">
+            <h1>Best Eats In Indy</h1>
+        </div>
+
+        <div class = "pin american_pin" style="top:20px; left: 20px;">
+            <h2>American</h2>
+        </div>
+
+        <div class = "pin chinese_pin" style="top:20px; left: 250px;">
+            <h2>Chinese</h2>
+        </div>
+
+        <div class = "pin greek_pin" style="top:20px; left:480px;">
+            <h2>Greek</h2>
+        </div>
+
+        <div class = "pin italian_pin" style ="top:20px; left:710px;">
+            <h2>Italian</h2>
+        </div>
+        
+        <div class = "tip" style="top:280px; left: 20px;">
+            <h2>These are the most popular food choices made by Hoosiers this week. Click the link and see the most awarded restaurants in Indiana. Choose from the categories displayed above.</h2>
+        </div>"
+        </div>
+        <ul>
+            <li><a href="greek.html">Greek</a></li>
+            <li><a href="american.html">American</a></li>
+            <li><a href="italian.html">Italian</a></li>
+            <li><a href="chinese.html">Chinese</a></li>
+        </ul></body>
+</html>
